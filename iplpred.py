@@ -204,7 +204,7 @@ def plot_prediction_probability(team1, team2, team1_prob):
 def main():
     # Load and prepare data
     print("Loading IPL data...")
-    match_data = load_and_prepare_data('C:/Users/Private Fox/Downloads/ipl_colab.csv')
+    match_data = load_and_prepare_data('https://github.com/Private-Fox7/IplPredictor/blob/main/ipl_colab.csv')
     
     # Plot overall team performance
     plot_team_performance(match_data)
